@@ -31,7 +31,7 @@ function Card({
       {/* <div className={styles.favorite}>
         <img
           onClick={() => handlerSetIsFavorite()}
-          src={isFavorite ? '/img/heart-liked.svg' : '/img/heart-unliked.svg'}
+          src={isFavorite ? 'img/heart-liked.svg' : 'img/heart-unliked.svg'}
           alt="Favorit Icon"
         />
       </div>
@@ -46,7 +46,7 @@ function Card({
         <img
           className={styles.plus}
           onClick={() => handleSetIsAdded()}
-          src={`/img/${isAdded ? 'btn-checked' : 'btn-plus'}.svg`}
+          src={`img/${isAdded ? 'btn-checked' : 'btn-plus'}.svg`}
           alt="Plus"
         />
       </div> */}
@@ -72,7 +72,7 @@ function Card({
               <img
                 onClick={() => handlerSetIsFavorite()}
                 src={
-                  isFavorite ? '/img/heart-liked.svg' : '/img/heart-unliked.svg'
+                  isFavorite ? 'img/heart-liked.svg' : 'img/heart-unliked.svg'
                 }
                 alt="Favorit Icon"
               />
@@ -90,7 +90,7 @@ function Card({
               <img
                 className={styles.plus}
                 onClick={() => handleSetIsAdded()}
-                src={`/img/${
+                src={`img/${
                   handlerIsAdded(id) ? 'btn-checked' : 'btn-plus'
                 }.svg`}
                 alt="Plus"
