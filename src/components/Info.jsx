@@ -14,7 +14,7 @@ const Info = ({ image, title, description, onClickCloseBtn }) => {
           : 'Добавьте хотя бы один товар, чтобы сделать заказ'}
       </p>
       <button onClick={onClickCloseBtn} className="greenButton">
-        <img src="/img/arrow.svg" alt="Arrow" />
+        <img src="img/arrow.svg" alt="Arrow" />
         Вернуться назад
       </button>
     </div>

@@ -31,7 +31,7 @@ function Home({
           {searchValue ? `Поиск по запросу: "${searchValue}"` : 'Все кроссовки'}
         </h1>
         <div className="search-block d-flex">
-          <img src="/img/search.svg" alt="Search" />
+          <img src="img/search.svg" alt="Search" />
           <input
             value={searchValue}
             onChange={handlerSearchInput}
@@ -41,7 +41,7 @@ function Home({
             <img
               className="cu-p"
               onClick={() => setSearchValue('')}
-              src="/img/btn-remove.svg"
+              src="img/btn-remove.svg"
               alt="Remove"
             />
           )}

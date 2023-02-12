@@ -172,7 +172,7 @@ function App() {
         <Header onClickCart={() => setCartOpened(!cartOpened)} />
         <Routes>
           <Route
-            path="/"
+            path="/react-sneakers/"
             element={
               <Home
                 items={items}
@@ -188,10 +188,10 @@ function App() {
           />
 
           <Route
-            path="/favorites"
+            path="/react-sneakers/favorites"
             element={<Favorites handlerAddToFavorite={handlerAddToFavorite} />}
           ></Route>
-          <Route path="/orders" element={<Orders />}></Route>
+          <Route path="/react-sneakers/orders" element={<Orders />}></Route>
         </Routes>
       </div>
     </AppContext.Provider>
